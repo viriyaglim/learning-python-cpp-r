@@ -1,0 +1,128 @@
+One-Month Python Mastery Plan (From 0 to Expert for Quants)
+Week 1 – Foundations of Python
+
+Goal: Get comfortable with Python syntax, logic, and data structures.
+
+Day 1–2: Python Basics
+
+Installing Python + Jupyter Notebook
+
+Variables, data types (int, float, str, bool), input/output
+
+Operators, type conversion
+
+Day 3–4: Control Flow
+
+If/else, loops (for, while), nested loops
+
+List comprehensions
+
+Day 5–6: Data Structures
+
+Lists, tuples, sets, dictionaries
+
+Indexing, slicing, iteration
+
+Day 7: Functions & Modules
+
+Defining functions, parameters, return values
+
+Lambda functions, importing libraries
+
+✅ Mini-Project: Write a program to simulate rolling dice, flipping coins, and basic probability experiments.
+
+Week 2 – Intermediate Python & Data Handling
+
+Goal: Work with data like a quant.
+
+Day 8–9: File Handling
+
+Read/write CSV, JSON, TXT
+
+With-context managers
+
+Day 10–11: Libraries (NumPy)
+
+Arrays, broadcasting, vectorization
+
+Random number generation
+
+Day 12–13: Libraries (Pandas)
+
+Series, DataFrames, indexing, filtering, grouping
+
+Handling missing data, merging, time series basics
+
+Day 14: Visualization (Matplotlib + Seaborn basics)
+
+✅ Mini-Project: Import stock data (Yahoo Finance), clean it, and plot price + moving averages.
+
+Week 3 – Advanced Python & Quant Tools
+
+Goal: Transition to quantitative finance applications.
+
+Day 15–16: Object-Oriented Programming
+
+Classes, objects, inheritance, encapsulation
+
+Magic methods (__init__, __str__, etc.)
+
+Day 17–18: Error Handling + Testing
+
+Try/except, raising errors
+
+Unit testing with pytest
+
+Day 19–20: Advanced Libraries
+
+SciPy (optimization, integration)
+
+Statsmodels (regression, hypothesis testing)
+
+Day 21: Time Series & Simulation
+
+Random walks, Monte Carlo simulation
+
+✅ Mini-Project: Price a European option using Monte Carlo simulation in Python.
+
+Week 4 – Expert Quant Python
+
+Goal: Apply Python to quant-level problems.
+
+Day 22–23: Algorithmic Trading Foundations
+
+Backtesting basics (Backtrader, vectorized strategies)
+
+Sharpe ratio, max drawdown
+
+Day 24–25: Machine Learning for Finance
+
+Train/test split, regression, classification
+
+Scikit-learn basics (linear regression, decision trees)
+
+Day 26–27: Numerical Methods in Quant Finance
+
+Finite difference methods, Euler-Maruyama for SDEs
+
+Simulating Geometric Brownian Motion
+
+Day 28–29: Portfolio Optimization
+
+Mean-variance optimization
+
+Efficient frontier with cvxpy
+
+Day 30: Capstone Project
+
+Build a small Quant Research Project:
+
+Import financial data
+
+Implement a strategy (e.g., SMA crossover)
+
+Backtest performance
+
+Evaluate Sharpe ratio, volatility, drawdown
+
+✅ Capstone Deliverable: GitHub repo with your code, documentation, and results.

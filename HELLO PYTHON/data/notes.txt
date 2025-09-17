@@ -1,0 +1,6 @@
+Hello, this is a test file.
+We are learning Python file handling.
+This file will be overwritten if we run this cell again. 
+This is the 4th line.
+This is the 5th line.
+This line is appended.

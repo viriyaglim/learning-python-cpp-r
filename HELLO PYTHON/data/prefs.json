@@ -1,0 +1,14 @@
+{
+    "user": "Vir",
+    "theme": "dark",
+    "level": "beginner to intermediate",
+    "topics": [
+        "Python",
+        "Data Science",
+        "Machine Learning"
+    ],
+    "score": {
+        "math": 95,
+        "english": 88
+    }
+}
