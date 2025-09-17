@@ -22,17 +22,6 @@ Focus: disciplined practice, clean code, reproducible research, and market-minde
 
 ---
 
-## 🚀 Quick Start
-1. Add a tiny “hello world” in each language:
-   - `cpp/hello.cpp` → prints a line
-   - `python/hello.py` → prints a line
-   - `r/hello.R` → prints a line
-2. Commit & push → confirm CI runs (green checks).
-
-> Tip: Keep examples atomic—one idea per file. Small, composable, testable.
-
----
-
 ## 🧰 Tooling
 - Editors: **VS Code** / **RStudio**
 - CI: GitHub Actions (build C++, run Python & R)
