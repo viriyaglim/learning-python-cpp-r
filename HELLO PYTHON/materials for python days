@@ -126,3 +126,17 @@ Backtest performance
 Evaluate Sharpe ratio, volatility, drawdown
 
 ✅ Capstone Deliverable: GitHub repo with your code, documentation, and results.
+
+#--------------------------------------------------------------------------------------------------
+Project Ideas:
+1. Pairs Trading with Cointegration
+2. Volatility Trading with GARCH Forecasts
+3. Regime-Switching Strategy (Markov Switching Model)
+4. Factor-Based Long–Short Equity Strategy
+5. Options Delta-Hedging Simulation
+
+6. Sentiment Analysis on Financial News
+7. Cryptocurrency Arbitrage Bot
+8. Yield Curve Modeling and Trading Strategy
+9. Risk Parity Portfolio Construction
+10. Machine Learning for Stock Price Prediction

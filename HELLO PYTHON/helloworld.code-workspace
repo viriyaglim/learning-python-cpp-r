@@ -2,6 +2,10 @@
     "folders": [
 		{
 			"path": "../.."
+		},
+		{
+			"name": "viriyalaper-project",
+			"path": "../../viriyalaper-project"
 		}
 	]
 }
