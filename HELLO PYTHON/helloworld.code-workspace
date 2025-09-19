@@ -7,5 +7,23 @@
 			"name": "viriyalaper-project",
 			"path": "../../viriyalaper-project"
 		}
-	]
+	],
+	"settings": {
+		"sqltools.connections": [
+			{
+				"mysqlOptions": {
+					"authProtocol": "default",
+					"enableSsl": "Disabled"
+				},
+				"ssh": "Disabled",
+				"previewLimit": 50,
+				"server": "localhost",
+				"port": 33060,
+				"driver": "MySQL",
+				"name": "MySQL Local",
+				"username": "sa",
+				"database": "new_app"
+			}
+		]
+	}
 }
