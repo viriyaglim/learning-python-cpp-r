@@ -1,0 +1,163 @@
+📅 30-Day Quant-Focused R Study Plan
+🔹 Week 1: Core R & Data Handling
+
+Goal: Be comfortable with R syntax, financial datasets, and basic analysis.
+
+Day 1: R basics (variables, vectors, matrices, functions, apply family).
+
+Package: base, dplyr
+
+Exercise: Simulate returns using rnorm().
+
+Day 2: Data wrangling with dplyr & tidyr.
+
+Learn mutate, summarize, group_by.
+
+Practice: Compute mean, volatility, skewness of stock returns.
+
+Day 3: Import/export financial data.
+
+Package: quantmod, tidyquant
+
+Task: Download AAPL returns, plot log returns.
+
+Day 4: Basic visualization with ggplot2.
+
+Plot time series, histograms of returns.
+
+Task: Compare BTC vs ETH volatility.
+
+Day 5: Portfolio basics.
+
+Compute portfolio returns, variance, Sharpe ratio.
+
+Package: PerformanceAnalytics.
+
+Day 6: Probability & statistics in R.
+
+Monte Carlo for coin toss & simple stock price model.
+
+Day 7: Mini-project: Build a return distribution analysis dashboard.
+
+🔹 Week 2: Econometrics Foundations
+
+Goal: Apply regression & estimation tools in finance.
+
+Day 8: Linear regression in R (lm).
+
+Task: CAPM regression of AAPL on S&P500.
+
+Day 9: Hypothesis testing (t-test, F-test, Wald test).
+
+Package: lmtest.
+
+Day 10: Maximum Likelihood Estimation (MLE).
+
+Package: stats4
+
+Task: Estimate normal distribution parameters of returns.
+
+Day 11: Generalized Method of Moments (GMM).
+
+Package: gmm.
+
+Task: Estimate moment conditions for CAPM.
+
+Day 12: Panel data econometrics.
+
+Package: plm.
+
+Task: Run fixed effects regression on firm returns.
+
+Day 13: Model diagnostics.
+
+Heteroskedasticity test (White, Breusch-Pagan), autocorrelation (Durbin-Watson).
+
+Day 14: Mini-project: Estimate CAPM & Fama-French 3 factors, test significance.
+
+
+🔹 Week 3: Time Series & Volatility Modeling
+
+Goal: Work with ARIMA, VAR, ARCH/GARCH.
+
+Day 15: Time series basics.
+
+Stationarity, ACF/PACF plots.
+
+Package: tseries.
+
+Day 16: ARIMA modeling.
+
+Package: forecast.
+
+Task: Forecast AAPL daily returns.
+
+Day 17: Vector AutoRegression (VAR).
+
+Package: vars.
+
+Task: Model interaction between stock index & bond yields.
+
+Day 18: ARCH model.
+
+Package: tseries.
+
+Task: Fit ARCH(1) to BTC returns.
+
+Day 19: GARCH models.
+
+Package: rugarch.
+
+Task: Estimate GARCH(1,1) volatility for S&P500.
+
+Day 20: EGARCH, GJR-GARCH, multivariate GARCH.
+
+Package: rmgarch.
+
+Day 21: Mini-project: Compare volatility models (GARCH vs EGARCH) for crypto.
+
+🔹 Week 4: Simulation & Visualization
+
+Goal: Apply Monte Carlo, bootstrapping, and create polished reports.
+
+Day 22: Monte Carlo simulation of stock prices.
+
+Task: Simulate 10,000 GBM paths.
+
+Day 23: Bootstrapping.
+
+Package: boot.
+
+Task: Bootstrap Sharpe ratio confidence intervals.
+
+Day 24: Value-at-Risk (VaR) simulation.
+
+Historical, parametric, and Monte Carlo VaR.
+
+Day 25: Expected Shortfall (CVaR).
+
+Package: PerformanceAnalytics.
+
+Day 26: Advanced visualization.
+
+Interactive dashboards with shiny.
+
+Day 27: Report automation.
+
+Markdown/Quarto reports with charts & tables.
+
+Day 28: Integrating models.
+
+Combine regression + GARCH + VaR into one workflow.
+
+Day 29: Mini-project: Build a “Quant Risk Report” for a stock/crypto.
+
+Day 30: Capstone project.
+
+Choose one:
+
+Full Fama-French analysis on a portfolio.
+
+Volatility forecasting for BTC.
+
+Monte Carlo VaR dashboard in Shiny.
