@@ -24,6 +24,10 @@
 				"username": "sa",
 				"database": "new_app"
 			}
-		]
+		],
+		"files.associations": {
+			"*.dbclient-js": "javascript",
+			"memory": "cpp"
+		}
 	}
 }

@@ -1,0 +1,186 @@
+📅 30-Day C++ Quant Study Plan
+Week 1: Performance Foundations & OOP (Days 1–7)
+
+👉 Goal: Build modern C++ foundations with a performance mindset.
+
+Day 1: Setup & Basics
+
+Install GCC/Clang + VS Code or CLion.
+
+CMake basics.
+
+Write first program with timing (chrono).
+
+Day 2: Memory Model
+
+Stack vs Heap.
+
+Pointers, references.
+
+RAII & smart pointers (unique_ptr, shared_ptr).
+
+Day 3: OOP Core
+
+Classes, constructors, destructors.
+
+Operator overloading (+, [], () for matrices).
+
+Day 4: Inheritance & Polymorphism
+
+Virtual functions, abstract classes.
+
+Use case: Base Option class → EuropeanOption, AsianOption.
+
+Day 5: Templates & Generics
+
+Function + class templates.
+
+Use case: Generic Matrix class template.
+
+Day 6: Move Semantics & Copy Elision
+
+Rvalue refs, std::move, std::forward.
+
+Why it matters in low-latency/HFT.
+
+Day 7: Practice
+
+Build a Matrix class with operator overloading and RAII memory handling.
+
+Week 2: STL, Data Structures & Numerical Tools (Days 8–14)
+
+👉 Goal: Master STL, custom DS, and start quant numerical computing.
+
+Day 8: STL Deep Dive
+
+vector, map, unordered_map, deque.
+
+Performance trade-offs.
+
+Day 9: Algorithms in STL
+
+sort, nth_element, accumulate, transform with lambdas.
+
+Day 10: Custom Allocators & Memory Pools
+
+For low-latency trading systems.
+
+Day 11: Numerical Stability
+
+Floating-point errors, epsilon, long double.
+
+Implement Newton–Raphson for root-finding.
+
+Day 12: Random Number Generators
+
+std::mt19937, std::normal_distribution.
+
+Implement random walk simulation.
+
+Day 13: Linear Algebra Libraries
+
+Eigen basics: matrix ops, LU/QR/SVD.
+
+Use case: covariance matrix.
+
+Day 14: Practice
+
+Implement Monte Carlo European option pricer with Eigen.
+
+Week 3: Numerical PDEs & Parallelization (Days 15–21)
+
+👉 Goal: Apply C++ to quant PDEs & HPC.
+
+Day 15: PDE Basics for Options
+
+Heat equation ↔ Black-Scholes PDE.
+
+Explicit finite difference scheme.
+
+Day 16: Implement 1D Explicit Scheme
+
+Grid-based European call pricer.
+
+Day 17: Stability & Convergence
+
+CFL condition, implicit schemes.
+
+Day 18: Implicit Scheme (Crank–Nicolson)
+
+Tridiagonal solvers (Thomas algorithm).
+
+Day 19: Multithreading (HFT Basics)
+
+std::thread, mutex, condition_variable.
+
+Day 20: Lock-Free Data Structures
+
+Atomics, ring buffers for order book simulation.
+
+Day 21: Practice
+
+Build a finite-difference engine with multi-threading for grid updates.
+
+Week 4: Quant Applications & HFT Mindset (Days 22–30)
+
+👉 Goal: Put it all together into quant-grade projects.
+
+Day 22: Monte Carlo with Variance Reduction
+
+Antithetic variates, control variates.
+
+Day 23: Parallel Monte Carlo
+
+Multi-threading speedup, timing results.
+
+Day 24: Portfolio Risk (VaR, CVaR)
+
+Simulate returns, compute quantiles.
+
+Day 25: Order Book Simulator
+
+Use deque + priority queue.
+
+Insert, match, cancel orders.
+
+Day 26: Profiling & Optimization
+
+gprof, valgrind, perf.
+
+Cache alignment tricks.
+
+Day 27: Design Patterns for Trading Systems
+
+Strategy pattern for pricing models.
+
+Observer pattern for market data feeds.
+
+Day 28: Python-C++ Integration
+
+pybind11 for hybrid backtesting pipelines.
+
+Day 29: Mock Quant Interview
+
+Implement LRU cache, max drawdown, or fast matrix multiplication.
+
+Day 30: Capstone Project 🎯
+
+Build a C++ Quant Toolkit:
+
+Monte Carlo + PDE option pricer
+
+VaR calculator
+
+Order book simulator
+
+Benchmark speed vs Python
+
+✅ By Day 30 you’ll have:
+
+Solid modern C++ skills with focus on performance.
+
+Implemented Monte Carlo + PDE pricing engines.
+
+Experience with multithreading & lock-free structures for HFT.
+
+A capstone quant toolkit in C++ to put on GitHub.
